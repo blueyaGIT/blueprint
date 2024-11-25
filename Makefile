@@ -13,7 +13,8 @@ CYAN = \033[36m
 NC = \033[0m
 
 # Source files
-SRCS_FILES = 	
+SRCS_FILES = 	main.c \
+				utils.c
 
 # Combine SRCS_DIR and the source filenames
 SRCS = $(addprefix $(SRCS_DIR)/, $(SRCS_FILES))
